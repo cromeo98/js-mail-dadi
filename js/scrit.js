@@ -8,10 +8,10 @@
 
 // estrazione dei dadi per l'user e il pc
 var dadoUser = Math.floor(Math.random() * 6) + 1;
-console.log(dadoUser);
+// console.log(dadoUser);
 
 var dadoPc = Math.floor(Math.random() * 6) + 1;
-console.log(dadoPc);
+// console.log(dadoPc);
 
 
 // Confronto tra estrazioni per valutazione maggiore o minore
