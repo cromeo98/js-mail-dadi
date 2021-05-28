@@ -13,3 +13,12 @@ console.log(dadoUser);
 var dadoPc = Math.floor(Math.random() * 6) + 1;
 console.log(dadoPc);
 
+
+// Confronto tra estrazioni per valutazione maggiore o minore
+if (dadoUser > dadoPc) {
+    document.getElementById('text').innerHTML = 'Hai vinto! Congratulazioni'
+} else if (dadoUser < dadoPc) {
+    document.getElementById('text').innerHTML = 'Hai perso. F5 per riprovare..'
+} else{
+    document.getElementById('text').innerHTML = 'Hai pareggiato. C\'eri quasi!'
+}
